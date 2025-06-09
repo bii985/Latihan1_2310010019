@@ -10,22 +10,22 @@ public class Matematika {
         this.bil2 = bil2;
     }
     //membuat method setPenjumlahan
-    double setPenjumlahan(){
+    public double setPenjumlahan(){
         return bil1 + bil2;
     }
     
     //membuat method setPengurangan
-    double setPengurangan(){
+    public double setPengurangan(){
         return bil1 - bil2;
     }
     
     //membuat method setPerrkalian
-    double setPerkalian(){
+    public double setPerkalian(){
         return bil1 * bil2;
     }
     
     //membuat method setPembagian
-    double setPembagian(){
+    public double setPembagian(){
         return bil1 / bil2;
     }
 }
